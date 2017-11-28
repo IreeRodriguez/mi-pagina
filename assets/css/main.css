@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    color: white;
+}
+nav, footer{
+    margin: 0;
+    background-color: #343A40;
+    padding: 1em 3em 1em;
+}
+h1{
+    font-size: 3em;
+    font-weight: lighter;
+}
+a{
+    color: lightgray;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+header{
+    margin: 0;
+    padding: 5em 0 5em;
+    background-image: url(../img/1920-400.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% cover;
+}
+.button{
+    background-color: #007BFF;
+    padding: 0.5em 1em 0.5em;
+    border-radius: 0.2em;
+    border: none;
+    color: white;
+    margin-top: 1em;
+}
+section{
+    padding: 2em;
+    margin: 0;
+    color: gray;
+}
+.centered{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /*padding: 1em;*/
+}
+.centered>*{
+    text-align: center;
+
+}
+.pad{
+    padding: 0 1em 0;
+}
+.text{
+    padding: 0 3em 0;
+    text-align: left;
+}
+h2{
+    margin-bottom: 0.5em;
+}
+.card{
+    width: 100%;
+    padding: 0.5em 2em 0.5em;
+}
+.border{
+    border: 1px solid lightgray;
+    margin: 1em;
+}
+.border>img{
+    width: 100%;
+    height: auto;
+}
+.hidden{
+    display: none;
+}
+h3{
+    text-align: left;
+}

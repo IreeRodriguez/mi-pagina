@@ -21,11 +21,14 @@ a:hover{
 }
 header{
     margin: 0;
-    padding: 5em 0 5em;
-    background-image: url(../img/1920-400.jpg);
-    background-repeat: no-repeat;
+    padding: 10em 0 10em;
+    background-image: url(../img/1920-400-3.jpg);
+    height: auto;
     background-position: center;
-    background-size: 100% cover;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    color: white;
+    -webkit-animation: slide 400s  linear infinite;
 }
 .button{
     background-color: #007BFF;
